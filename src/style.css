@@ -25,13 +25,11 @@ a {
 }
 
 main {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 24px 16px 48px;
 }
 
 .page-intro {
-  max-width: 720px;
+  padding: 24px 16px 48px;
 }
 
 .page-intro h1 {
@@ -66,17 +64,16 @@ main {
 }
 
 .creator-wrap {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
 }
 
 .dashboard-wrap {
   margin: auto;
   width: 100%;
-  max-width: 1400px;
 }
 
 .tabulator-wrap {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
 }
