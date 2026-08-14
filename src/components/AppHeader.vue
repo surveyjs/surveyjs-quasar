@@ -12,7 +12,7 @@ const links = [
   <q-header elevated class="bg-white text-dark">
     <q-toolbar class="app-toolbar">
       <router-link to="/" class="brand">
-        <img src="/favicon.svg" width="28" height="28" alt="" />
+        <img src="/favicon.ico" width="28" height="28" alt="" />
         SurveyJS + Quasar
       </router-link>
       <q-space />

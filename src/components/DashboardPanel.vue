@@ -5,7 +5,7 @@ import { Dashboard } from 'survey-analytics'
 import { data, json } from '../../data/dashboard_data.js'
 import 'survey-analytics/survey.analytics.css'
 
-const panelEl = shallowRef<HTMLElement | null>(null)
+const dashboardEl = shallowRef<HTMLElement | null>(null)
 let dashboard: Dashboard | null = null
 
 onMounted(() => {
@@ -14,8 +14,8 @@ onMounted(() => {
     questions: survey.getAllQuestions(),
     data,
   })
-  if (panelEl.value) {
-    dashboard.render(panelEl.value)
+  if (dashboardEl.value) {
+    dashboard.render(dashboardEl.value)
   }
 })
 
@@ -26,5 +26,5 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div ref="panelEl" class="dashboard-wrap" />
+  <div ref="dashboardEl" class="dashboard-wrap" />
 </template>
