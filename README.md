@@ -1,6 +1,6 @@
 # SurveyJS + Quasar Quickstart Template
 
-SurveyJS is a set of JavaScript components that allow you and your users to build surveys / forms, store them in your database, and visualize survey results for data analysis. This quick start template uses [Quasar](https://quasar.dev/) (Vue 3 + Vite SPA) and the following SurveyJS components:
+Build forms and surveys in Quasar with SurveyJS. This quickstart template demonstrates how to add a drag-and-drop form builder to a [Quasar](https://quasar.dev/) application using Vue 3 and Vite, render dynamic forms, export surveys to PDF, and visualize survey results with charts and tables using the following SurveyJS components:
 
 - [SurveyJS Form Library](https://surveyjs.io/form-library/documentation/overview)
 - [Survey Creator / Form Builder](https://surveyjs.io/survey-creator/documentation/overview)
