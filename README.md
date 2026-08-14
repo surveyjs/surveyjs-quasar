@@ -7,6 +7,8 @@ Build forms and surveys in Quasar with SurveyJS. This quickstart template demons
 - [SurveyJS Dashboard](https://surveyjs.io/dashboard/documentation/overview)
 - [SurveyJS PDF Generator](https://surveyjs.io/pdf-generator/documentation/overview)
 
+> This template uses SurveyJS **v3** (`^3.0.0`).
+
 ## Run the Application
 
 ```bash

@@ -12,7 +12,7 @@ onMounted(() => {
   const survey = new Model(json)
   dashboard = new Dashboard({
     questions: survey.getAllQuestions(),
-    data: data
+    data,
   })
   if (dashboardEl.value) {
     dashboard.render(dashboardEl.value)
@@ -20,7 +20,7 @@ onMounted(() => {
 })
 
 onBeforeUnmount(() => {
-  dashboard?.clear()
+  dashboard?.destroy()
   dashboard = null
 })
 </script>
