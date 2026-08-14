@@ -14,15 +14,14 @@
     "ace-builds": "latest",
     "jspdf-autotable": "^3.8.2",
     "quasar": "^2.18.2",
-    "survey-analytics": "3.0.0-beta.8",
-    "survey-core": "3.0.0-beta.8",
-    "survey-creator-core": "3.0.0-beta.8",
-    "survey-creator-vue": "3.0.0-beta.8",
-    "survey-pdf": "3.0.0-beta.8",
-    "survey-vue3-ui": "3.0.0-beta.8",
+    "survey-analytics": "^3.0.0",
+    "survey-core": "^3.0.0",
+    "survey-creator-core": "^3.0.0",
+    "survey-creator-vue": "^3.0.0",
+    "survey-pdf": "^3.0.0",
+    "survey-vue3-ui": "^3.0.0",
     "vue": "^3.5.40",
-    "vue-router": "^4.5.1",
-    "wordcloud": "^1.2.2"
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@quasar/vite-plugin": "^1.10.0",

@@ -7,7 +7,7 @@ SurveyJS is a set of JavaScript components that allow you and your users to buil
 - [SurveyJS PDF Generator](https://surveyjs.io/pdf-generator/documentation/overview)
 - [SurveyJS Dashboard](https://surveyjs.io/dashboard/documentation/overview)
 
-> This template uses SurveyJS **v3** (`3.0.0-beta.8`).
+> This template uses SurveyJS **v3** (`3.0.0`).
 
 ## Run the application
 
